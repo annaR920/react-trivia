@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import Trivia from "./components/Trivia.jsx";
 
 const questions = [
       { question: "How many US states begin with letter P?", 
@@ -168,7 +167,6 @@ function App() {
                   </div>
                 </div> 
                 </div>
-                <Trivia>{() => questions[currentIndex].question}</Trivia>
             </div>
         </div>
 
