@@ -22,7 +22,7 @@ function App() {
         setStartButtonText("Restart Quiz");
     };
 
-    // Check Answer 
+    // Check Answer logic
     const checkAnswer = (answer) => {
         const currentAnswer = questions[currentIndex].choices[answer];
         if (currentAnswer === questions[currentIndex].correctAnswer) {
