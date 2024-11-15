@@ -6,6 +6,6 @@ const StartButton = ({gameStart, startButtonText}) => {
             <button onClick={gameStart} className=" border-black"> {startButtonText} </button>
         </div>
     )//return
-}//Question
+}//Question .
 
 export default StartButton;

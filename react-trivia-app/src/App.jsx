@@ -45,7 +45,7 @@ function App() {
         }
     };
 
-    // Disable/Enable Prev/Next Buttons based on currentIndex
+    // Disable/Enable Prev/Next Buttons based on currentIndex.
     useEffect(() => {
         setIsPrevDisabled(currentIndex === 0); // Disable Prev on the first question
         setIsNextDisabled(currentIndex === questions.length - 1); // Disable Next on the last question

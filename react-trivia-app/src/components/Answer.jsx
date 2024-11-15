@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-// import Navigation from "./Navigation.jsx" (remove if not used)
 
 export default function Answer({ questions, checkAnswer, currentIndex }) {
     return (

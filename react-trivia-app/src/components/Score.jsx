@@ -8,4 +8,4 @@ const Score = ({ score }) => {
     );
 };
 
-export default Score;
+export default Score; // .
